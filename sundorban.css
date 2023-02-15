@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+body{
+  width: 100%; 
+  display: block;
+}
+
+img{
+    width: 100%; 
+    height: auto;
+}
+
+
+
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(11, 228, 228);  
+    
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(4, 224, 84);
+    
+}
+.img-hearer{
+    width: 365px;
+    height: 300px;
+    border-radius: 10px;
+}
+.main-heaher{
+    display:flex; 
+    flex-direction: row;
+    margin: 40px;
+    padding: 20px;
+    gap: 75px;     
+    
+}
+
+.high-level {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.items_container{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+
+.Packages{
+    text-align: center;
+    color: black;
+    font-size: 30px ;
+    background-color: rgb(252, 91, 32);
+    border-radius: 100px;
+
+}
+h4{
+    font-size: 25px;
+}
+.food-list{
+    font-size: 20px;
+}
+
+.img-container{
+    display: flex;
+    
+}
+.food{
+    padding: 20px;
+    width: 150px;
+    height: 120px;
+    gap: 20px;
+    border-radius: 20px;
+}
+.button{
+    border-color: aqua;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    
+
+}
+.room-section{
+    background-color: thistle;
+    margin: 80px ;
+    padding: 30px;
+    gap:px;
+    border-radius: 20px;
+    font-size: 20px;
+    
+    
+}
+.room-pakages{
+    display: flex;
+}
+
+.img-room-container{
+    display: flex;
+    margin: 70px;
+    border-radius: 20px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.most-popular-img{
+    display: flex;
+    margin: 60px;
+    gap: 60px; 
+    
+}
+.most-popular-img-2{
+    display: flex;
+    margin: 60px;
+    gap: 60px; 
+   
+    
+}
+ .belakhum-body{
+    background-color: rgb(206, 226, 226);
+    border: 5px;
+    border-radius: 10px;
+    padding: 0px 2px 5px;
+ 
+ }
+ .belakhum-body-1{
+    background-color: rgb(206, 226, 226);
+    border: 5px;
+    border-radius: 10px;
+    padding: 0px 2px 5px;
+ }
+ .belakhum-body-2{
+    background-color: rgb(206, 226, 226);
+    border: 5px;
+    border-radius: 10px;
+    padding: 0px 2px 5px;
+ }
+ a{
+    text-decoration: none;
+    background-color:rgb(8, 16, 231);
+    font: bold;
+    color:rgb(225, 221, 221);
+    border-radius: 5px;
+    padding:7px ;
+ }
+
+
+
+/* 
+ Responsive for tablet 
+
+*/
+
+
+@media screen and (min-width:550px) and (max-width: 778px){
+    
+/* body{
+    background: #f00;
+} */
+
+.main-heaher{
+    flex-direction:column;
+    align-items: center ;
+    justify-content:center ;     
+
+}
+
+.high-level{
+    width: 100%;
+    align-items: center ;
+}
+.high-level h2{ 
+    width: 100%;
+}
+.high-level img{
+    width: 100%;
+}
+
+
+
+
+
+
+}
+.futa{
+    display: flex;
+    
+
+}
+.last-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+#img-container{
+    margin: 40px;
+    padding: 10px 25px 20px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background-color: rgb(214, 217, 224);
+    
+    
+
+
+}
+.popular-img{
+    height: 65%;
+   
+
+}
+button{
+    background-color: rgb(48, 80, 69);
+    padding: 4px;
+    border-radius: 8px;
+    color: rgb(245, 242, 247);
+
+}
+#img-container img{
+    width: 100%;
+}@media screen and (max-width:778px) {
+
+    .last-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+@media screen and (min-width:577px) and(max-width:992px) {
+    .last-containe{
+        grid-template-columns: repeat(2,1fr);
+    }
+  
+    
+
+
+@
