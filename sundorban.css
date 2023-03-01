@@ -210,9 +210,9 @@ p{
 #img-container{
     margin: 40px;
     padding: 10px 25px 20px;
-    border-radius: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgb(214, 217, 224);
+
     
     
 
@@ -220,11 +220,11 @@ p{
 }
 .popular-img{
     height: 65%;
-   
+    border-radius: 20px;
 
 }
 button{
-    background-color: rgb(48, 80, 69);
+    background-color: rgb(26, 215, 64);
     padding: 4px;
     border-radius: 8px;
     color: rgb(245, 242, 247);
@@ -243,8 +243,3 @@ button{
     .last-containe{
         grid-template-columns: repeat(2,1fr);
     }
-  
-    
-
-
-@
